@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: beige;
+}
+.main{}
+.flex_container{
+    height: 420px;
+    background: repeating-linear-gradient(120deg, #7de6eb 0px, #49a599 450px, hsl(283, 46%, 42%)250px, hsl(283, 46%, 42%) );
+    border-left: white;
+}
+.flex_container h1{
+    font-size: 90px;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100px;
+    margin-left: 610px;
+    margin-top: -195px;
+    position: relative;
+    letter-spacing: 3px;
+
+}
+.flex_container p{
+    font: 15px;
+    font-weight: 100;
+    margin: auto;
+    margin-left: 619px;
+    margin-top: -40px;
+    text-transform: uppercase;
+    color: white;
+    font-family: tahoma;
+}
+.img_div{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 15px solid white;
+    top: 10%;
+    margin-left: 200px;
+    background: white;
+    position: relative;
+    text-align: center;
+}
+#images{
+    border-radius: 50%;
+    position: absolute;
+    max-width: 300px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: block;
+    margin: auto;
+}
